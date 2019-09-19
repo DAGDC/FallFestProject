@@ -1,2 +1,2 @@
 # FallFestProject
-Endless run game for fall festival
+Haunted mansion themed endless fighter game for fall festival
