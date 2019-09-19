@@ -1,4 +1,4 @@
-/// @description Define player movement, collisions, and shooting, along with lives and death
+/// @description Define player movement, collisions, along with lives and death
 
 spd = 5; // Movement speed
 
@@ -37,6 +37,7 @@ else {
 	}
 	
 }
+/* Shooting now handled in obj_bow
 
 // Shoot if mouse pressed and if canshoot = true
 cooldown = 0.5; // Time in seconds of cooldown before being able to shoot again
@@ -51,4 +52,4 @@ if (mouse_check_button(mb_left)) {
 		
 	}
 	
-}
+}*/
