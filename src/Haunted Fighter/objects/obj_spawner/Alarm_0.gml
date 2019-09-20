@@ -2,7 +2,7 @@
 
 unspawned = true;
 
-if (instance_number(obj_ghost) < 10) {
+if (instance_number(obj_ghost) < 7) {
 			
 		if (!place_meeting(x, y, obj_ghost)) {
 			
