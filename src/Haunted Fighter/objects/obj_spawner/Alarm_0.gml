@@ -7,7 +7,6 @@ if (instance_number(obj_ghost) < 10) {
 		if (!place_meeting(x, y, obj_ghost)) {
 			
 			instance_create_layer(x, y, layer_get_id("Enemies"), obj_ghost);
-			show_debug_message(place_meeting(x, y, obj_ghost));
 			unspawned = false;
 			
 		}

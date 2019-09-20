@@ -4,7 +4,8 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-        
+        "default",
+        "default;developer"
     ],
     "option_ecma": false,
     "parentProject": {
@@ -36,6 +37,14 @@
                 "id": "d4b597d4-e1b7-4451-9e0b-32bec43978e4",
                 "resourcePath": "views\\08463187-8e47-4beb-9bef-a95bd1788c4b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "096d8f1e-3d1f-4f98-b909-f26925161789",
+            "Value": {
+                "id": "7ae42be8-1705-4495-bfd1-d9f23f089ed1",
+                "resourcePath": "fonts\\fnt_highscore\\fnt_highscore.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -247,6 +256,14 @@
             }
         },
         {
+            "Key": "c1f9ec82-6d0d-435b-8733-ced91b14bd58",
+            "Value": {
+                "id": "30cf6fea-7aa7-4405-bf9b-501a422a3c86",
+                "resourcePath": "objects\\obj_gamestart\\obj_gamestart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c72a59c1-10bb-4ed6-b5e0-5c6bacda7049",
             "Value": {
                 "id": "c2b6fe72-ca9e-4046-ab78-ff5bf30253c9",
@@ -300,6 +317,14 @@
                 "id": "f186ee7b-52a3-4dfb-a870-c0c48f6edffd",
                 "resourcePath": "views\\d43849a1-2158-4505-867e-ae7830b41a8c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d83bbf1a-6272-45fc-89aa-a797e027b606",
+            "Value": {
+                "id": "9cfeddc9-7d56-4aa8-9d36-ead8ddb5f6fd",
+                "resourcePath": "rooms\\roo_menu\\roo_menu.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
