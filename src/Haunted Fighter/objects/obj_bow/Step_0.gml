@@ -16,6 +16,30 @@ else {
 		if (!shot) {
 		
 			instance_create_depth(x, y, depth + 1, obj_arrow);
+			
+			// Tri-shot stuff I was messing around with
+			
+			if (false) {
+				
+				arrow_1 = instance_create_depth(x, y, depth + 1, obj_arrow);
+				
+				with (arrow_1) {
+					
+					direction += 30;
+					image_angle = direction;
+					
+				}
+				arrow_2 = instance_create_depth(x, y, depth + 1, obj_arrow);
+				
+				with (arrow_2) {
+					
+					direction -= 30;
+					image_angle = direction;
+					
+				}
+				
+			}
+			
 			shot = true;
 		
 		}
