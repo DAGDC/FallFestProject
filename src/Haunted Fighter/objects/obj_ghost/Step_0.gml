@@ -17,6 +17,11 @@ if (!faded) {
 
 //pulse_speed = 10;
 
+player_direction = point_direction(x, y, obj_player.x, obj_player.y);
+
+hspd = lengthdir_x(3, player_direction);
+vspd = lengthdir_y(3, player_direction);
+
 if (faded) {
 	
 	/*if (fading) {
@@ -39,9 +44,39 @@ if (faded) {
 		}
 		
 	}*/
-	move_towards_point(obj_player.x, obj_player.y, 3);
+	//move_towards_point(obj_player.x, obj_player.y, 3);
+	if (!place_meeting(x + hspd, y, obj_ghost)) {
+	
+		x += hspd;
+	
+	}
+	else {
+	
+		while (!place_meeting(x + sign(hspd), y, obj_ghost)) {
+		
+			x += sign(hspd);	
+		
+		}
+	
+	}
+
+	if (!place_meeting(x, y + vspd, obj_ghost)) {
+	
+		y += vspd;
+	
+	}
+	else {
+	
+		while (!place_meeting(x, y + sign(vspd), obj_ghost)) {
+		
+			y += sign(vspd);	
+		
+		}
+	
+	}
 }
 
+image_xscale = -sign(hspd);
 
 
 

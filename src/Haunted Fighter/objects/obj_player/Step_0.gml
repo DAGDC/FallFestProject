@@ -8,14 +8,14 @@ vspd = max(keyboard_check(vk_down), keyboard_check(ord("S"))) - max(keyboard_che
 
 // Move based on above defined speeds above if no collisions
 
-if (!place_meeting(obj_collision, x + sign(hspd)*spd, y)) {
+if (!place_meeting(x + sign(hspd)*spd, y, obj_collision)) {
 	
 	x += hspd*spd;
 	
 }
 else {
 	
-	while (!place_meeting(obj_collision, x + sign(hspd), y)) {
+	while (!place_meeting(x + sign(hspd), y, obj_collision)) {
 		
 		x += sign(hspd);	
 		
@@ -23,14 +23,14 @@ else {
 	
 }
 
-if (!place_meeting(obj_collision, x, y + sign(vspd)*spd)) {
+if (!place_meeting(x, y + sign(vspd)*spd, obj_collision)) {
 	
 	y += vspd*spd;
 	
 }
 else {
 	
-	while (!place_meeting(obj_collision, x, y + sign(vspd))) {
+	while (!place_meeting(x, y + sign(vspd), obj_collision)) {
 		
 		y += sign(vspd);	
 		
@@ -53,3 +53,18 @@ if (mouse_check_button(mb_left)) {
 	}
 	
 }*/
+
+if (lives <= 0) {
+	
+	if (score > highscore) {
+		
+		newname = get_string("Input your name...", "John Doe");
+		ini_open("savedata.ini");
+		ini_write_real("Highscore", "Value", score);	
+		ini_write_string("Highscore", "Name", newname);	
+		ini_close();
+		
+	}
+	game_restart();	
+	
+}
