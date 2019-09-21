@@ -3,7 +3,7 @@ if (mouse_check_button(mb_left)) {
 	
 	if (!pulled) {
 		
-		image_speed = 1.5;
+		image_speed = 2;
 	
 	}
 	
