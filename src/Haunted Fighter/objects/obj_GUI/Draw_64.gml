@@ -5,7 +5,7 @@ draw_set_color(c_white);
 draw_set_halign(fa_left);
 draw_text(51*lives + 10, 10, "Score: " + string(score));
 draw_text(51*lives + 140 + 15*string_length(score), 10, "Highscore: " + string(highscore));
-draw_text(51*lives + 365 + 20*string_length(highscore), 10, "Highscore Name: " + string(name));
+draw_text(51*lives + 340 + 15*string_length(score) + 15*string_length(highscore), 10, "Highscore Name: " + string(name));
 if (score > highscore) {
 	
 	draw_set_color(make_color_rgb(irandom_range(0, 255), irandom_range(0, 255), irandom_range(0, 255)));
