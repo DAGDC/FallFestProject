@@ -1,7 +1,7 @@
 /// @description Destroy based on conditions
 if (kills > 2 || distance_to_point(initialx, initialy) > range) {
 	
-	score += power(kills, 2);
+	score += power(kills, 2)*100;
 	instance_destroy();	
 	
 }
