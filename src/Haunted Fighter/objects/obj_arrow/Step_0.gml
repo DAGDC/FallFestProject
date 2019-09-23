@@ -1,5 +1,5 @@
 /// @description Destroy based on conditions
-if (kills > 2 || distance_to_point(initialx, initialy) > range) {
+if (/*kills > 2 || */distance_to_point(initialx, initialy) > range) {
 	
 	score += power(kills, 2)*100;
 	instance_destroy();	
@@ -15,7 +15,7 @@ if (kills == 2) {
 		}
 		
 	}
-	else if (kills == 3) {
+	else if (kills >= 3) {
 		
 		if (!tripcreated) {
 			
