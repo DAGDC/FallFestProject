@@ -6,6 +6,16 @@ spd = 5; // Movement speed
 hspd = max(keyboard_check(vk_right), keyboard_check(ord("D"))) - max(keyboard_check(vk_left), keyboard_check(ord("A")))
 vspd = max(keyboard_check(vk_down), keyboard_check(ord("S"))) - max(keyboard_check(vk_up), keyboard_check(ord("W")))
 
+if (sign(hspd) == 1) {
+	
+	image_xscale = 1;
+	
+} else if (sign(hspd) == -1) {
+	
+	image_xscale = -1;	
+
+}
+
 // Move based on above defined speeds above if no collisions
 
 if (!place_meeting(x + sign(hspd)*spd, y, obj_collision)) {
@@ -68,3 +78,5 @@ if (lives <= 0) {
 	game_restart();	
 	
 }
+
+depth = 0;
