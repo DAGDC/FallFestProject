@@ -6,11 +6,11 @@ spd = 5; // Movement speed
 hspd = max(keyboard_check(vk_right), keyboard_check(ord("D"))) - max(keyboard_check(vk_left), keyboard_check(ord("A")))
 vspd = max(keyboard_check(vk_down), keyboard_check(ord("S"))) - max(keyboard_check(vk_up), keyboard_check(ord("W")))
 
-if (sign(hspd) == 1) {
+if (obj_bow.x >= x) {
 	
 	image_xscale = 1;
 	
-} else if (sign(hspd) == -1) {
+} else if (obj_bow.x < x) {
 	
 	image_xscale = -1;	
 
