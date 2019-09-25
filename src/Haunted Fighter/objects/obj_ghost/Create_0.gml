@@ -12,6 +12,3 @@ if (random(2) >= 1) {
 	sprite_index = spr_zombie;	
 	
 }
-
-image_xscale = 0.1;
-
