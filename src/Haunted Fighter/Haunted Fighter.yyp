@@ -257,6 +257,14 @@
             }
         },
         {
+            "Key": "6736427e-3e89-434b-8150-491f03db953d",
+            "Value": {
+                "id": "3dad9821-fd94-4262-9a83-465ce3102eb2",
+                "resourcePath": "sprites\\spr_zombie\\spr_zombie.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6b3a12a8-2aa9-4da5-84f5-0937b7e621f9",
             "Value": {
                 "id": "3b5314a2-d6c3-48da-82c0-9eea64959f29",
