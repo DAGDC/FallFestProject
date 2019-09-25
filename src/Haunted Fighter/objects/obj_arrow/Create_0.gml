@@ -9,3 +9,5 @@ initialx = x;
 initialy = y;
 doubcreated = false;
 tripcreated = false;
+depth = 5;
+hits = 0;
