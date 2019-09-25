@@ -20,3 +20,4 @@ else {
 	
 }
 ini_close();
+audio_play_sound(sound_background, 0, true);
