@@ -48,11 +48,24 @@ else {
 	
 }
 
-direction = point_direction(obj_player.x, obj_player.y, mouse_x, mouse_y);
+player_relative_direction = point_direction(obj_player.x, obj_player.y, mouse_x, mouse_y);
+direction = point_direction(x, y, mouse_x, mouse_y);
 image_angle = direction;
 
-xDisp = 50; // Vertical maximum distance from player
+xDisp = 25; // Vertical maximum distance from player
 yDisp = 50;// Horizontal maximum distance from player
 
-x = obj_player.x + lengthdir_x(xDisp, direction);
-y = obj_player.y + lengthdir_y(yDisp, direction);
+//x = obj_player.x + lengthdir_x(xDisp, direction);
+if ((player_relative_direction > 0 && player_relative_direction < 90) || player_relative_direction > 270) {
+	
+	x = obj_player.x + xDisp;
+	
+}
+else {
+	
+	x = obj_player.x - xDisp;	
+	
+}
+//y = obj_player.y + lengthdir_y(yDisp, direction);
+y = obj_player.y;
+depth = obj_player.depth - 1;
