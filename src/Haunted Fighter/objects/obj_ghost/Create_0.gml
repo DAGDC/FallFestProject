@@ -5,6 +5,8 @@ faded = false;
 fading = false;
 ghostLives = 1;
 arrow = false;
+image_speed = 0;
+image_index = 0;
 
 /*if (random(2) >= 1) {
 	

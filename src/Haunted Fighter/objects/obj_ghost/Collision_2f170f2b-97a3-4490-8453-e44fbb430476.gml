@@ -2,10 +2,16 @@
 //instance_destroy(other); Should I include this?
 	
 if (other != arrow) {
-	
+
 	other.hits += 1;
 	arrow = other;
 	ghostLives -= 1;
+	
+	if (ghostLives > 0) {
+		
+			image_speed = 1;
+		
+	}
 	
 }
 if (ghostLives <= 0) {
