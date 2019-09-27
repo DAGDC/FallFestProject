@@ -1,5 +1,5 @@
 /// @description Bow Operations
-if (mouse_check_button(mb_left)) {
+if (mouse_check_button(mb_left) && !playerState) {
 	
 	if (!pulled) {
 		

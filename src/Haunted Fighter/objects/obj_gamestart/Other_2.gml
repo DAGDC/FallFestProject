@@ -6,6 +6,8 @@ globalvar name;
 name = "N/A"
 globalvar highscore;
 highscore = 0;
+globalvar playerState;
+playerState = -1;
 ini_open("savedata.ini");
 if file_exists("savedata.ini")
 	{

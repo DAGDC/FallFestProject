@@ -80,3 +80,27 @@ if (lives <= 0) {
 }
 
 depth = 0;
+
+// Toggle aninimation
+if (abs(hspd) + abs(vspd) > 0) {
+	
+	image_speed = 0.1;
+	
+}
+else {
+	
+	image_speed = 0;	
+	image_index = 0;
+	
+}
+
+if (invincible) {
+	
+	image_blend = make_colour_hsv(random(255), random(255), random(255));
+		
+}
+else {
+	
+	image_blend = -1;
+	
+}
