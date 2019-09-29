@@ -1,6 +1,6 @@
 /// @description Define player movement, collisions, along with lives and death
 
-spd = 5; // Movement speed
+spd = 5 + 3*keyboard_check(vk_lcontrol);; // Movement speed
 
 // Movement Variables
 hspd = max(keyboard_check(vk_right), keyboard_check(ord("D"))) - max(keyboard_check(vk_left), keyboard_check(ord("A")))

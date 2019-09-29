@@ -193,6 +193,14 @@
             }
         },
         {
+            "Key": "363de174-6a62-48ea-986d-26729bc2cad4",
+            "Value": {
+                "id": "1fcb30b7-6a07-475d-80fb-a8fbdf2ce563",
+                "resourcePath": "views\\363de174-6a62-48ea-986d-26729bc2cad4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "37d14d73-9324-4612-9a5d-d5bfa491d95c",
             "Value": {
                 "id": "311561d0-69d0-4f3a-9763-4f332d484bd7",
@@ -246,6 +254,14 @@
                 "id": "22ceb04a-b8fc-4108-922a-b387a036c176",
                 "resourcePath": "sprites\\spr_btn_play\\spr_btn_play.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4ea85ce0-948a-4a84-ab29-5010aba7c480",
+            "Value": {
+                "id": "968b6e78-c141-4c50-ba44-fbe2de5b45d8",
+                "resourcePath": "objects\\obj_invincibility\\obj_invincibility.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -569,6 +585,14 @@
                 "id": "f186ee7b-52a3-4dfb-a870-c0c48f6edffd",
                 "resourcePath": "views\\d43849a1-2158-4505-867e-ae7830b41a8c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d7c4b1c2-fb5c-47f7-9020-a18327dc9df2",
+            "Value": {
+                "id": "a137e481-40e9-404d-a79c-ed4560990466",
+                "resourcePath": "objects\\obj_invincibility_spawner\\obj_invincibility_spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {

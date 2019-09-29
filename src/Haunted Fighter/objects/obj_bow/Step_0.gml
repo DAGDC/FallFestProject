@@ -40,12 +40,26 @@ else {
 				
 			}
 			
+			if (false) {
+				
+				for (i = 0; i <= 360; i++) {
+				arrow = instance_create_depth(x, y, depth + 1, obj_arrow);
+				
+					
+				arrow.direction = i;
+				arrow.image_angle = direction;
+					
+									
+				}
+			
+					
+			}
+		
 			shot = true;
 		
 		}
-		
-	}
 	
+	}
 }
 
 player_relative_direction = point_direction(obj_player.x, obj_player.y, mouse_x, mouse_y);
