@@ -177,6 +177,14 @@
             }
         },
         {
+            "Key": "331fb974-b64d-4a9f-9658-bf8e167170d9",
+            "Value": {
+                "id": "cf1ec7c0-f786-4c91-bd86-1bc944d31fcb",
+                "resourcePath": "sprites\\spr_dallin\\spr_dallin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "34ac71fa-4eee-4191-9bbe-ca8d06edcb56",
             "Value": {
                 "id": "2f93ff06-a502-45ea-8e3b-857c4ce00ccc",
@@ -249,6 +257,14 @@
             }
         },
         {
+            "Key": "4a8f2801-35a0-48bf-8a91-743a8ba77eb1",
+            "Value": {
+                "id": "ecf52974-1d5c-42b5-8519-ed3ec94b4ce5",
+                "resourcePath": "views\\4a8f2801-35a0-48bf-8a91-743a8ba77eb1.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4ac8ed6b-f5a9-49da-90e0-91648b6627fc",
             "Value": {
                 "id": "22ceb04a-b8fc-4108-922a-b387a036c176",
@@ -262,6 +278,14 @@
                 "id": "968b6e78-c141-4c50-ba44-fbe2de5b45d8",
                 "resourcePath": "objects\\obj_invincibility\\obj_invincibility.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "51d82506-afce-4d11-83e1-799f261b7800",
+            "Value": {
+                "id": "aff1f709-4da5-4f46-8e39-b21df4468956",
+                "resourcePath": "sprites\\spr_graphdesign\\spr_graphdesign.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -294,6 +318,14 @@
                 "id": "df99ad6a-ca3f-478a-b085-3e167db79b35",
                 "resourcePath": "views\\5b372789-04e7-4f71-ad68-b3fcea5f1c1e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "60720dd8-696d-4222-b3a0-e64405b6ed4d",
+            "Value": {
+                "id": "ae79e33d-f6a6-4ca0-869c-06127508ccd7",
+                "resourcePath": "sprites\\spr_supervision\\spr_supervision.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -393,6 +425,14 @@
             }
         },
         {
+            "Key": "9a189c2f-25f4-443f-8cb5-4869048f81ff",
+            "Value": {
+                "id": "84b8b8de-ee71-4456-9920-d4f5f09e6dd9",
+                "resourcePath": "objects\\obj_gdesign\\obj_gdesign.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9aa43d16-fd7c-43a2-b564-b1fbca3e6414",
             "Value": {
                 "id": "67d9bf83-f94e-4aa7-8a4a-f1a94d997c0f",
@@ -422,6 +462,14 @@
                 "id": "fae00275-4339-4593-a490-9a3748991efb",
                 "resourcePath": "sprites\\spr_invincibility\\spr_invincibility.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a561765b-8091-472c-8701-6c386a6f17fe",
+            "Value": {
+                "id": "25ddf079-8d9d-4a25-a016-a40eaf166821",
+                "resourcePath": "objects\\obj_supervision\\obj_supervision.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -521,6 +569,14 @@
             }
         },
         {
+            "Key": "cb9be841-09c1-4d54-9b37-9c96b9861162",
+            "Value": {
+                "id": "216cacf0-12e3-4489-b37f-231002b17d46",
+                "resourcePath": "objects\\obj_dallin\\obj_dallin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "configDeltas": [
@@ -601,6 +657,14 @@
                 "id": "9cfeddc9-7d56-4aa8-9d36-ead8ddb5f6fd",
                 "resourcePath": "rooms\\roo_menu\\roo_menu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e9897343-5723-426c-ad92-086179a6951b",
+            "Value": {
+                "id": "b6b20368-895d-42fb-b4df-28f2122f1e0b",
+                "resourcePath": "views\\e9897343-5723-426c-ad92-086179a6951b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

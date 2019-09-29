@@ -1,11 +1,18 @@
 /// @description Toggle full screen
 
-if (window_get_fullscreen()) {
+if (room = roo_credits) {
 	
-	window_set_fullscreen(false);	
+	room = roo_menu;	
 	
-} else {
+}
+else {
+	if (window_get_fullscreen()) {
 	
-	window_set_fullscreen(true);	
+		window_set_fullscreen(false);	
 	
+	} else {
+	
+		window_set_fullscreen(true);	
+	
+	}
 }
