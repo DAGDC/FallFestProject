@@ -700,6 +700,14 @@
             }
         },
         {
+            "Key": "fc5e05bb-9114-44b0-869e-adebb6a6e89b",
+            "Value": {
+                "id": "f3b6975c-2d6a-4941-80d0-6082619da30c",
+                "resourcePath": "datafiles_yy\\winners.bat.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "fc7e1700-9794-4285-9a76-55fffc0089e7",
             "Value": {
                 "id": "ae78a536-b1e3-4eaf-bfec-f4d0d4534a03",

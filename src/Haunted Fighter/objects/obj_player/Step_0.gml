@@ -75,6 +75,32 @@ if (lives <= 0) {
 		ini_close();
 		
 	}
+	else if (score > highscore2) {
+		
+		newname = get_string("Input your name...", "John Doe");
+		ini_open("savedata.ini");
+		ini_write_real("Highscore2", "Value", score);	
+		ini_write_string("Highscore2", "Name", newname);	
+		ini_close();	
+		
+	}
+	else if (score > highscore3) {
+		
+		newname = get_string("Input your name...", "John Doe");
+		ini_open("savedata.ini");
+		ini_write_real("Highscore3", "Value", score);	
+		ini_write_string("Highscore3", "Name", newname);	
+		ini_close();	
+		
+	}
+	f = file_text_open_write("winners.txt");
+	file_text_write_string(f, "1st Place: "+name+", Score: "+string(highscore));
+	file_text_writeln(f)
+	file_text_write_string(f, "2nd Place: "+name2+", Score: "+string(highscore2));
+	file_text_writeln(f)
+	file_text_write_string(f, "3rd Place: "+name3+", Score: "+string(highscore3));
+	file_text_close(f);
+	
 	game_restart();	
 	
 }
